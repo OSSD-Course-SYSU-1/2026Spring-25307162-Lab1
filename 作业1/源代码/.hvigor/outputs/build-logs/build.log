@@ -1,0 +1,176 @@
+[2026-06-22T00:01:59.887] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-06-22T00:02:00.500] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-06-22T00:02:04.483] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-06-22T00:02:04.485] [DEBUG] debug-file - Starting plugin build process
+[2026-06-22T00:02:04.618] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-06-22T00:02:04.616] [DEBUG] debug-file - App plugin register hook start...
+[2026-06-22T00:02:04.638] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-06-22T00:02:04.675] [DEBUG] debug-file - Project task initialization takes 5 ms 
+[2026-06-22T00:02:04.621] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-06-22T00:02:04.682] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\codehomework\speech-kit-sample-TextReader_-arkts-master\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-06-22T00:02:04.694] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-22T00:02:04.701] [DEBUG] debug-file - project has submodules:entry
+[2026-06-22T00:02:04.702] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-06-22T00:02:04.715] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-06-22T00:01:59.888] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-06-22T00:02:00.500] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-06-22T00:02:04.765] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-06-22T00:02:04.484] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-06-22T00:02:04.485] [DEBUG] debug-file - App plugin prepare start...
+[2026-06-22T00:02:04.618] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-06-22T00:02:04.616] [DEBUG] debug-file - App plugin register hook end...
+[2026-06-22T00:02:04.669] [DEBUG] debug-file - Sdk init in 42 ms 
+[2026-06-22T00:02:04.675] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-22T00:02:04.622] [DEBUG] debug-file - not found resModel json file in : D:\codehomework\speech-kit-sample-TextReader_-arkts-master\entry\src\ohosTest\module.json5
+[2026-06-22T00:02:04.695] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-22T00:02:04.705] [DEBUG] debug-file - load to the disk finished
+[2026-06-22T00:02:04.716] [ERROR] debug-file - [31m00303082 Configuration Error
+Error Message: Unable to find the targetSdkVersion 6.1.0(23) in SDK Manager. At file: D:\codehomework\speech-kit-sample-TextReader_-arkts-master\build-profile.json5
+
+* Try the following:
+  > Since NEXT Developer Beta1, DevEco Studio offers an out-of-the-box development experience by packaging the SDK, Node.js, Hvigor, ohpm, and other toolchains together, simplifying the installation and configuration process of DevEco Studio. It also provides integrated capabilities for migrating historical projects, helping you quickly complete project conversion.
+  > To download the integrated IDE, visit https://developer.huawei.com/consumer/cn/download/
+  > More info: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-integrated-project-migration
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-06-22T00:01:59.889] [DEBUG] debug-file - env: daemon=false
+[2026-06-22T00:02:00.501] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-06-22T00:02:04.767] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-06-22T00:02:04.485] [DEBUG] debug-file - App plugin prepare end...
+[2026-06-22T00:02:04.618] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-06-22T00:02:04.617] [DEBUG] debug-file - Plugin build process completed
+[2026-06-22T00:02:04.676] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\codehomework\speech-kit-sample-TextReader_-arkts-master\hvigorfile.ts
+[2026-06-22T00:02:04.627] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-06-22T00:02:04.695] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-22T00:02:04.705] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-22T00:02:04.716] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303082 Configuration Error
+Error Message: Unable to find the targetSdkVersion 6.1.0(23) in SDK Manager. At file: D:\codehomework\speech-kit-sample-TextReader_-arkts-master\build-profile.json5
+
+* Try the following:
+  > Since NEXT Developer Beta1, DevEco Studio offers an out-of-the-box development experience by packaging the SDK, Node.js, Hvigor, ohpm, and other toolchains together, simplifying the installation and configuration process of DevEco Studio. It also provides integrated capabilities for migrating historical projects, helping you quickly complete project conversion.
+  > To download the integrated IDE, visit https://developer.huawei.com/consumer/cn/download/
+  > More info: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-integrated-project-migration
+[39m
+    at OhosLogger.printErrorExit (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at OneSdkValidator.versionCompatibilityCheck (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\one-sdk-validator.js:1:4479)
+    at OneSdkValidator.apiInspection (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\one-sdk-validator.js:1:1889)
+    at HvigorLifecycleHook.<anonymous> (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:2659)
+    at HvigorLifecycleHook.runFn (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1743)
+    at configuration (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:2806)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async start (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:2570)
+    at async boot (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:1789)
+    at async startHvigorBuild (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js:1:7577)
+[2026-06-22T00:01:59.889] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2026-06-22T00:02:00.502] [DEBUG] debug-file - hvigorfile, resolving D:\codehomework\speech-kit-sample-TextReader_-arkts-master\hvigorfile.ts
+[2026-06-22T00:02:04.768] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-06-22T00:02:04.485] [DEBUG] debug-file - App plugin creating...
+[2026-06-22T00:02:04.618] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-06-22T00:02:04.676] [DEBUG] debug-file - hvigorfile, resolve finished D:\codehomework\speech-kit-sample-TextReader_-arkts-master\hvigorfile.ts
+[2026-06-22T00:02:04.629] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-06-22T00:02:04.695] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-22T00:02:04.716] [ERROR] debug-file - AdaptorError: [31m00303082 Configuration Error
+Error Message: Unable to find the targetSdkVersion 6.1.0(23) in SDK Manager. At file: D:\codehomework\speech-kit-sample-TextReader_-arkts-master\build-profile.json5
+
+* Try the following:
+  > Since NEXT Developer Beta1, DevEco Studio offers an out-of-the-box development experience by packaging the SDK, Node.js, Hvigor, ohpm, and other toolchains together, simplifying the installation and configuration process of DevEco Studio. It also provides integrated capabilities for migrating historical projects, helping you quickly complete project conversion.
+  > To download the integrated IDE, visit https://developer.huawei.com/consumer/cn/download/
+  > More info: https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/ide-integrated-project-migration
+[39m
+    at OhosLogger.printErrorExit (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\log\hvigor-log.js:1:5087)
+    at OneSdkValidator.versionCompatibilityCheck (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\one-sdk-validator.js:1:4479)
+    at OneSdkValidator.apiInspection (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\utils\one-sdk-validator.js:1:1889)
+    at HvigorLifecycleHook.<anonymous> (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js:1:2659)
+    at HvigorLifecycleHook.runFn (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\hook\hvigor-lifecycle-hook.js:1:1743)
+    at configuration (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js:1:2806)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async start (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:2570)
+    at async boot (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js:1:1789)
+    at async startHvigorBuild (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js:1:7577)
+[2026-06-22T00:02:04.768] [DEBUG] debug-file - Clear worker 0.
+[2026-06-22T00:02:04.709] [DEBUG] debug-file - Module speech-kit-sample-TextReader_-arkts-master Collected Dependency: 
+[2026-06-22T00:02:04.633] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-06-22T00:02:04.676] [DEBUG] debug-file - hvigorfile, resolving D:\codehomework\speech-kit-sample-TextReader_-arkts-master\entry\hvigorfile.ts
+[2026-06-22T00:02:04.695] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-22T00:02:04.736] [ERROR] debug-file - BUILD FAILED in 4 s 242 ms 
+[2026-06-22T00:02:04.768] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-06-22T00:02:04.709] [DEBUG] debug-file - Module speech-kit-sample-TextReader_-arkts-master's total dependency: 0
+[2026-06-22T00:02:04.681] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2026-06-22T00:02:04.763] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-06-22T00:02:04.695] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-22T00:02:04.768] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-06-22T00:02:04.681] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2026-06-22T00:02:04.764] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-06-22T00:02:04.695] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-06-22T00:02:04.768] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-06-22T00:02:04.681] [DEBUG] debug-file - Starting plugin build process
+[2026-06-22T00:02:04.768] [DEBUG] debug-file - Clear worker 1.
+[2026-06-22T00:02:04.695] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-22T00:02:04.681] [DEBUG] debug-file - Hap plugin creating...
+[2026-06-22T00:02:04.768] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-22T00:02:04.768] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-22T00:02:04.768] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-22T00:02:04.769] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-22T00:02:04.773] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-22T00:02:04.773] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-22T00:02:04.774] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-22T00:02:04.696] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-22T00:02:04.700] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2026-06-22T00:02:04.700] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-06-22T00:02:04.700] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-06-22T00:02:04.700] [DEBUG] debug-file - Plugin build process completed
+[2026-06-22T00:02:04.700] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-22T00:02:04.700] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\codehomework\speech-kit-sample-TextReader_-arkts-master\entry\hvigorfile.ts
+[2026-06-22T00:02:04.700] [DEBUG] debug-file - hvigorfile, resolve finished D:\codehomework\speech-kit-sample-TextReader_-arkts-master\entry\hvigorfile.ts
